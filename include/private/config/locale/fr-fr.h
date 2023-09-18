@@ -126,6 +126,10 @@
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "échec de sd_journal_sendv"
 
+// todo translate
+#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
+"the string is not of the name=\"value\" format"
+
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "échec de création de fichier avec le nom de socket local choisi utilisant" \
 " mkstemp"
@@ -250,4 +254,4 @@ L"enregistrement Stumpless de Windows Event Log Source"
 #  define L10N_WSAGETLASTERROR_ERROR_CODE_TYPE \
 "le résultat de WSAGetLastError après l'échec de l'appel"
 
-#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_FR_FR_H */
+#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_FR_FRH_ */

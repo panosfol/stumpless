@@ -16,8 +16,8 @@
  * limitations under the License.
  */
 
-#ifndef __STUMPLESS_PRIVATE_CONFIG_LOCALE_EN_US_H
-#  define __STUMPLESS_PRIVATE_CONFIG_LOCALE_EN_US_H
+#ifndef __STUMPLESS_PRIVATE_CONFIG_LOCALE_BN_IN_H
+#  define __STUMPLESS_PRIVATE_CONFIG_LOCALE_BN_IN_H
 
 #  define L10N_BIND_UNIX_SOCKET_FAILED_ERROR_MESSAGE \
 "স্থানীয় ইউনিক্স সকেটের"\
@@ -133,6 +133,10 @@
 
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "sd_journal_sendv অসফল"
+
+// todo translate
+#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
+"the string is not of the name=\"value\" format"
 
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "mkstemp ব্যবহার করে নির্বাচিত স্থানীয় সকেট"\
@@ -259,4 +263,4 @@ L"উইন্ডোজ ইভেন্ট লগ সোর্সের স্�
 #  define L10N_WSAGETLASTERROR_ERROR_CODE_TYPE \
 "ব্যর্থ কলের পরে WSAGEtLastError এর ফলাফল"
 
-#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_BN_IN_H */
+#endif  /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_BN_IN_H */

@@ -134,6 +134,10 @@
 # define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "αποτυχία sd_journal_sendv"
 
+// todo translate
+#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
+"the string is not of the name=\"value\" format"
+
 # define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "αδυναμία δημιουργίας ενός αρχείου με το επιλεγόμενο όνομα υποδοχέα και την" \
 " χρήση του mkstemp"
@@ -271,4 +275,4 @@ L"Stumpless registration of Windows Event Log Source"
 # define L10N_WSAGETLASTERROR_ERROR_CODE_TYPE \
 "το αποτέλεσμα της WSAGetLastError εφόσον απότυχε η κλήση της συνάρτησης"
 
-#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_EN_US_H */
+#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_EL_GR_H */

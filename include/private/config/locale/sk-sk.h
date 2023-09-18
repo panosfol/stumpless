@@ -145,6 +145,10 @@
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "sd_journal_sendv failed"
 
+// todo translate
+#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
+"the string is not of the name=\"value\" format"
+
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "nieje možné vytvoriť súbor s vybraným menom lokálneho socketu pomocou mkstemp"
 
@@ -284,4 +288,4 @@ L"Stumpless registration of Windows Event Log Source"
 #  define L10N_WSAGETLASTERROR_ERROR_CODE_TYPE \
 "výsledok WSAGetLastError po zlyhaní volania"
 
-#endif //STUMPLESS_SK_SK_H
+#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_SK_SK_H */

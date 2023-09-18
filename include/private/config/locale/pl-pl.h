@@ -135,6 +135,10 @@
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "sd_journal_sendv przegrany"
 
+// todo translate
+#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
+"the string is not of the name=\"value\" format"
+
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "nie jest możliwe utworzenie pliku z wybraną nazwą gniazda lokalnego" \
 " przy użyciu mkstemp"
@@ -271,4 +275,4 @@ L"Stumpless registration of Windows Event Log Source"
 #  define L10N_WSAGETLASTERROR_ERROR_CODE_TYPE \
 "wynik WSAGetLastError po niepowodzeniu połączenia"
 
-#endif //STUMPLESS_PL_PL_H
+#endif /* __STUMPLESS_PRIVATE_CONFIG_LOCALE_PL_PL_H */
