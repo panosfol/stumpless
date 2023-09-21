@@ -134,10 +134,6 @@
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "sd_journal_sendv অসফল"
 
-// todo translate
-#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
-"the string is not of the name=\"value\" format"
-
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "mkstemp ব্যবহার করে নির্বাচিত স্থানীয় সকেট"\
  "নাম দিয়ে একটি ফাইল তৈরি করা যায়নি"

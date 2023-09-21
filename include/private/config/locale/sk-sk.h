@@ -145,10 +145,6 @@
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "sd_journal_sendv failed"
 
-// todo translate
-#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
-"the string is not of the name=\"value\" format"
-
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "nieje možné vytvoriť súbor s vybraným menom lokálneho socketu pomocou mkstemp"
 

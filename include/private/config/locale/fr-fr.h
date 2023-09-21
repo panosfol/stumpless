@@ -126,10 +126,6 @@
 #  define L10N_JOURNALD_FAILURE_ERROR_MESSAGE \
 "échec de sd_journal_sendv"
 
-// todo translate
-#  define L10N_INVALID_PARAM_ERROR_MESSAGE \
-"the string is not of the name=\"value\" format"
-
 #  define L10N_LOCAL_SOCKET_NAME_FILE_OPEN_ERROR_MESSAGE \
 "échec de création de fichier avec le nom de socket local choisi utilisant" \
 " mkstemp"
